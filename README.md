@@ -32,6 +32,23 @@
 | `create_aggregates.py` | Creación de tablas agregadas optimizadas |
 | `test_connection.py` | Prueba de conexión MySQL |
 
+## Dashboard
+
+### Resumen Ejecutivo
+![Resumen Ejecutivo](assets/dashboard_resumen.png)
+
+### Análisis Temporal
+![Análisis Temporal](assets/dashboard_temporal.png)
+
+### Análisis Geográfico
+![Análisis Geográfico](assets/dashboard_geografico.png)
+
+### Impacto COVID-19
+![Impacto COVID-19](assets/dashboard_covid.png)
+
+### Hallazgos Clave
+![Hallazgos Clave](assets/dashboard_hallazgos.png)
+
 ## Fuente de Datos
 Datos oficiales de la NYC Taxi & Limousine Commission (TLC):
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
