@@ -1,0 +1,14 @@
+﻿# Datos crudos — demasiado grandes para GitHub
+data/raw/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Power BI
+*.pbix
+
+# Variables de entorno
+.env
+*.env
