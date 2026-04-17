@@ -4,8 +4,7 @@ from sqlalchemy import create_engine
 
 # ── Conexión ──────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent
-DB_URL = "mysql+pymysql://kristian:taxi2024@127.0.0.1:3306/nyc_taxi_db"
-engine = create_engine(DB_URL)
+engine = create_engine("mysql+pymysql://user:password@host/db_name")
 
 COLUMNS_TO_KEEP = [
     "pickup_datetime", "dropoff_datetime", "passenger_count",
