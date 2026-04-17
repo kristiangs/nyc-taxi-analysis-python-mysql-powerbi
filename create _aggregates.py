@@ -12,8 +12,7 @@ import time
 # ─────────────────────────────────────────
 # CONEXION
 # ─────────────────────────────────────────
-DB_URL = 'mysql+pymysql://kristian:taxi2024@127.0.0.1:3306/nyc_taxi_db'
-engine = create_engine(DB_URL)
+engine = create_engine("mysql+pymysql://user:password@host/db_name")
 
 def run_query(nombre, sql):
     """Ejecuta una query de creacion y muestra el tiempo que tardo."""
