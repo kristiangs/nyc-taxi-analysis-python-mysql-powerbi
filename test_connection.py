@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, text
 
 # Reemplaza TU_IP_WSL con tu IP real
-engine = create_engine("mysql+pymysql://kristian:taxi2024@127.0.0.1:3306/nyc_taxi_db")
+engine = create_engine("mysql+pymysql://user:password@host/db_name")
 
 try:
     with engine.connect() as conn:
